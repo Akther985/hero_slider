@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> responsive menu </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/slick.css"/>
+    <link rel="stylesheet" href="assets/css/slick-theme.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    
+    </head>
+    <body>
+        <div class="container">
+    <div class="swiper">  
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="assets/images/wh.jpg" alt="wh"> </div>
+    <div class="swiper-slide"><img src="assets/images/car2.jpg" alt="car2"></div>
+    <div class="swiper-slide"><img src="assets/images/car1.jpg" alt="car1"></div>
+    <div class="swiper-slide"><img src="assets/images/redcar.jpg" alt="redcar"></div>
+    
+  </div>
+  
+  <div class="swiper-pagination"></div>
+
+  
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  
+    </div>
+</div>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script type="assets/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+       autoplay: {
+    delay: 3000,
+  },
+   
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }, 
+  
+});
+
+</script>
+</body>
+</html>
